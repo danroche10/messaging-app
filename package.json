@@ -1,0 +1,24 @@
+{ 
+  "homepage":"https://github.com/danroche10/messaging_app.git",
+  "name": "05_01",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "jasmine",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.20",
+    "socket.io": "^2.3.0"
+  },
+  "description": "",
+  "devDependencies": {
+    "jasmine": "^3.5.0",
+    "request": "^2.88.2"
+  }
+}
